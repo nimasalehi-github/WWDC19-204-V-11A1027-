@@ -7,10 +7,18 @@
 //
 
 import SwiftUI
-
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        HStack {
+            Image(systemName: "photo")
+//Xcode has embedded these views into a Vstack to get the layout that I want.Now a Vstack or vertical stack is one of the common layout elements in SwiftUI. It lets you stack views vertically.
+            VStack(alignment: .leading) {
+                Text("Hello World")
+                Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+            }
+        }
     }
 }
 

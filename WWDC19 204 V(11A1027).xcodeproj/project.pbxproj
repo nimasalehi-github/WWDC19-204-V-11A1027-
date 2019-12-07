@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		373702D1239BCF6E007EB4F1 /* WWDC19204.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 373702D0239BCF6E007EB4F1 /* WWDC19204.rtf */; };
 		37BB4E5C239A709A00C297C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB4E5B239A709A00C297C3 /* AppDelegate.swift */; };
 		37BB4E5E239A709A00C297C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB4E5D239A709A00C297C3 /* SceneDelegate.swift */; };
 		37BB4E60239A709A00C297C3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BB4E5F239A709A00C297C3 /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		373702D0239BCF6E007EB4F1 /* WWDC19204.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = WWDC19204.rtf; sourceTree = "<group>"; };
 		37BB4E58239A709A00C297C3 /* WWDC19 204 V(11A1027).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WWDC19 204 V(11A1027).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BB4E5B239A709A00C297C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		37BB4E5D239A709A00C297C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				37BB4E66239A709F00C297C3 /* LaunchScreen.storyboard */,
 				37BB4E69239A709F00C297C3 /* Info.plist */,
 				37BB4E63239A709F00C297C3 /* Preview Content */,
+				373702D0239BCF6E007EB4F1 /* WWDC19204.rtf */,
 			);
 			path = "WWDC19 204 V(11A1027)";
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				373702D1239BCF6E007EB4F1 /* WWDC19204.rtf in Resources */,
 				37BB4E68239A709F00C297C3 /* LaunchScreen.storyboard in Resources */,
 				37BB4E65239A709F00C297C3 /* Preview Assets.xcassets in Resources */,
 				37BB4E62239A709F00C297C3 /* Assets.xcassets in Resources */,
