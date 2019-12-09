@@ -8,13 +8,16 @@
 
 import SwiftUI
 struct ContentView: View {
+    var rooms: [Room] = []
+
     var body: some View {
-        HStack {
-            Image(systemName: "photo")
-//Xcode has embedded these views into a Vstack to get the layout that I want.Now a Vstack or vertical stack is one of the common layout elements in SwiftUI. It lets you stack views vertically.
+        
+        List(rooms) { room in
+            Image(room.thumbnailName)
+                .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
             VStack(alignment: .leading) {
-                Text("Hello World")
-                Text(/*@START_MENU_TOKEN@*/"Placeholder"/*@END_MENU_TOKEN@*/)
+                Text(room.name)
+                Text("\(room.capacity) people")
                     .font(.subheadline)
                     .foregroundColor(.secondary)
             }
@@ -24,6 +27,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(rooms: testData)
     }
 }
