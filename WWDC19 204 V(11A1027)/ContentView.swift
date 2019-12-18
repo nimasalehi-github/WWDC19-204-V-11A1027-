@@ -7,20 +7,16 @@
 //
 
 import SwiftUI
+
 struct ContentView: View {
     var rooms: [Room] = []
-
+    
     var body: some View {
-        
-        List(rooms) { room in
-            Image(room.thumbnailName)
-                .cornerRadius(/*@START_MENU_TOKEN@*/3.0/*@END_MENU_TOKEN@*/)
-            VStack(alignment: .leading) {
-                Text(room.name)
-                Text("\(room.capacity) people")
-                    .font(.subheadline)
-                    .foregroundColor(.secondary)
+        NavigationView {
+            List(rooms) { room in
+                ExtractedView(room: room)
             }
+            .navigationBarTitle(Text("Rooms"))
         }
     }
 }
@@ -28,5 +24,24 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView(rooms: testData)
+    }
+}
+
+struct ExtractedView: View {
+    let room: Room
+
+    var body: some View {
+        return NavigationLink(destination: SwiftUIView_RoomDetail(room: room)) {
+            
+            Image(room.thumbnailName)
+                .cornerRadius(15.0)
+            
+            VStack {
+                Text(room.name)
+                Text("\(room.capacity) people")
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+            }
+        }
     }
 }

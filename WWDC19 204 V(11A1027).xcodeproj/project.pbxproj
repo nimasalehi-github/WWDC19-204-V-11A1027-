@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3700E74923AA1E0E00E7F262 /* SwiftUIView-RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700E74823AA1E0D00E7F262 /* SwiftUIView-RoomDetail.swift */; };
+		3700E74A23AA1E0E00E7F262 /* SwiftUIView-RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700E74823AA1E0D00E7F262 /* SwiftUIView-RoomDetail.swift */; };
+		3700E74B23AA1E0E00E7F262 /* SwiftUIView-RoomDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3700E74823AA1E0D00E7F262 /* SwiftUIView-RoomDetail.swift */; };
 		373702D1239BCF6E007EB4F1 /* WWDC19204.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 373702D0239BCF6E007EB4F1 /* WWDC19204.rtf */; };
 		374652E9239D9548009237BC /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374652E8239D9548009237BC /* Room.swift */; };
 		374652EA239D9548009237BC /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374652E8239D9548009237BC /* Room.swift */; };
@@ -39,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3700E74823AA1E0D00E7F262 /* SwiftUIView-RoomDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUIView-RoomDetail.swift"; sourceTree = "<group>"; };
 		373702D0239BCF6E007EB4F1 /* WWDC19204.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = WWDC19204.rtf; sourceTree = "<group>"; };
 		374652E8239D9548009237BC /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
 		37BB4E58239A709A00C297C3 /* WWDC19 204 V(11A1027).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WWDC19 204 V(11A1027).app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +112,7 @@
 				37BB4E5B239A709A00C297C3 /* AppDelegate.swift */,
 				37BB4E5D239A709A00C297C3 /* SceneDelegate.swift */,
 				37BB4E5F239A709A00C297C3 /* ContentView.swift */,
+				3700E74823AA1E0D00E7F262 /* SwiftUIView-RoomDetail.swift */,
 				37BB4E61239A709F00C297C3 /* Assets.xcassets */,
 				37BB4E66239A709F00C297C3 /* LaunchScreen.storyboard */,
 				37BB4E69239A709F00C297C3 /* Info.plist */,
@@ -277,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				374652E9239D9548009237BC /* Room.swift in Sources */,
+				3700E74923AA1E0E00E7F262 /* SwiftUIView-RoomDetail.swift in Sources */,
 				37BB4E5C239A709A00C297C3 /* AppDelegate.swift in Sources */,
 				37BB4E5E239A709A00C297C3 /* SceneDelegate.swift in Sources */,
 				37BB4E60239A709A00C297C3 /* ContentView.swift in Sources */,
@@ -288,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				374652EA239D9548009237BC /* Room.swift in Sources */,
+				3700E74A23AA1E0E00E7F262 /* SwiftUIView-RoomDetail.swift in Sources */,
 				37BB4E73239A70A000C297C3 /* WWDC19_204_V_11A1027_Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +304,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				374652EB239D9548009237BC /* Room.swift in Sources */,
+				3700E74B23AA1E0E00E7F262 /* SwiftUIView-RoomDetail.swift in Sources */,
 				37BB4E7E239A70A000C297C3 /* WWDC19_204_V_11A1027_UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
